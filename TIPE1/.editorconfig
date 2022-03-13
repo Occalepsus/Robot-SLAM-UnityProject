@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CS0660: Le type définit l'opérateur == ou l'opérateur != mais ne se substitue pas à Object.Equals(object o)
+dotnet_diagnostic.CS0660.severity = suggestion
+
+# CS0661: Le type définit l'opérateur == ou l'opérateur != mais ne se substitue pas à Object.GetHashCode()
+dotnet_diagnostic.CS0661.severity = suggestion
